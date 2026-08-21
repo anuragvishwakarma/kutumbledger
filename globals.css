@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 3.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 3.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 3.9%;
+    --primary: 0 0% 9%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 0 0% 96.1%;
+    --secondary-foreground: 0 0% 9%;
+    --muted: 0 0% 96.1%;
+    <SUMMARY>
+- Completed project documentation files (PRD.md and claude.md)
+- Set up Next.js 15 project with TypeScript, Tailwind CSS, and essential dependencies
+- Created core directory structure and essential pages for the KutumbLedger MVP
+- Implemented dashboard layout, home page, and key feature pages (transactions, family, helpers, festival, udhaar, jars, auth)
+- Added basic components and styling
+
+Next steps would be to implement the actual functionality (SMS parsing, voice input, IndexedDB integration, Supabase sync) but the foundation is now in place per the execution plan.
